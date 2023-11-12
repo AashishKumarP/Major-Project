@@ -1,0 +1,21 @@
+.open strdet1
+
+CREATE TABLE patient
+(
+id VARCHAR(10),
+name VARCHAR(60),
+age VARCHAR(3),
+address1 VARCHAR(60),
+address2 VARCHAR(60),
+adhar VARCHAR(15),
+mobile VARCHAR(15)
+);
+
+
+CREATE TABLE eyeftrs
+(
+id varchar(10) NOT NULL,
+s1 char(1),s2 char(1),s3 char(1),s4 char(1),s5 char(1),
+s6 char(1),s7 char(1),s8 char(1),s9 char(1),s10 char(1)
+);
+
